@@ -1,0 +1,35 @@
+@import 'node_modules/carbon-components/scss/globals/scss/_colors';
+
+.asks-header,
+.bids-header{
+    display: flex;
+    font-size: 0.625;
+    font-weight: 700;
+    .bids-amount{
+        padding-left: 1rem;
+    }
+    .bids-price{
+        margin-left: auto;
+        padding-right: 2rem;
+    }
+    .asks-price{
+        padding-left: 2rem;
+    }
+    .asks-amount{
+        margin-left: auto;
+        padding-right: 1rem;
+    }
+}
+
+.bids-card,
+.orderbook-title-row,
+.orderbook-empty-row,
+.asks-card{
+    background-color: $color__white;
+}
+
+.orderbook-title{
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}

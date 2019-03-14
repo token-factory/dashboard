@@ -1,0 +1,10 @@
+.account-dash {
+  &__content {
+    margin-left: 12.5rem;
+    transition: margin-left 500ms ease-in-out;
+    &.collapsed {
+      margin-left: 3rem;
+      transition: margin-left 500ms ease-in-out;
+    }
+  }
+}

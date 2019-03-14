@@ -1,0 +1,67 @@
+.resource-table-skeleton,
+.resource-table {
+    padding: 2rem 3rem 0rem 3rem;
+    table-layout: fixed;
+  }
+  
+  .resource-tablecell {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: normal;
+    display: flex;
+    .launch-icon:hover {
+      fill: #294c79;
+    }
+  }
+  
+  .action-overflow {
+    margin: auto;
+    text-align: center;
+  }
+
+  .bx--overflow-menu-options__option {
+    &:hover .bx--overflow-menu-options__btn { color: inherit; }
+    .bx--overflow-menu-options__btn:focus {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+
+.tooltip-wrapper {
+  display: flex;
+  .resource-tablecell {
+    max-width: 90%;
+  }
+  .bx--tooltip__trigger {
+    font-size: inherit;
+    svg { margin-left: 0.25rem; }
+  }
+}
+
+.description-list {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  li {
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    > span { font-weight: 600; }
+  }
+}
+
+.table-layout-switch{
+    width: 2rem;
+    margin-left: 1rem;
+    padding-left: 0rem;
+}
+
+.cardview-grid{
+    margin-left: 11px;
+    padding-left: 0rem;
+}
+
+.empty-search{
+    width: 100%;
+}

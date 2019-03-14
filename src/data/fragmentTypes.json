@@ -1,0 +1,20 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "INTERFACE",
+        "name": "History",
+        "possibleTypes": [
+          { "name": "Set_Signers" },
+          { "name": "Set_Threshold" },
+          { "name": "Create_Account" },
+          { "name": "Change_Trust" },
+          { "name": "Payment" },
+          { "name": "Manage_Offer" },
+          { "name": "Allow_Trust" },
+          { "name": "Home_Domain" }
+        ]
+      }
+    ]
+  }
+}

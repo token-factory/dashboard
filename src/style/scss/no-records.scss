@@ -1,0 +1,35 @@
+@import 'node_modules/carbon-components/scss/globals/scss/_colors';
+
+.no-records {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4.375em auto 0;
+  
+    &__icon {
+      width: 135px;
+      height: 135px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: $color__white;
+      border-radius: 50%;
+    }
+  
+    &__title {
+      font-size: 2.25em;
+      font-weight: 200;
+      margin-top: 2.1875rem;
+      line-height: 1;
+    }
+  
+    &__detail {
+      font-size: .875em;
+      font-weight: 400;
+      margin-top: 2.1875rem;
+      margin-bottom: 2.1875rem;
+    }
+  }
+  

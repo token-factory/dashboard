@@ -1,0 +1,57 @@
+.asset-content-left{
+    padding-left: 0rem;
+}
+
+.asset-content-right{
+    padding-left: 1rem;
+}
+
+.asset-content{
+    height: 7rem;
+    width: 15rem;
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+
+    .asset-code{
+        font-weight: 400;
+    }
+
+    .bx--detail-page-header-icon-container{
+        height: 3.2rem;
+        width: 3.2rem;
+    }
+
+    .asset-balance{
+        padding-top: 0.5rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        max-width: 2rem;
+    }
+    .bx--detail-page-header-tag-container{
+        height: 3.2rem;
+        width: 3.2rem;
+        text-align: center;
+    }
+    .asset-tag{
+        margin: 0.8rem auto;
+    }
+
+    .asset-issuer{
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 200;
+    }
+
+    .truncation-container{
+        margin-top: 0.2rem;
+    }
+}
+
+.asset-card{
+    width: 15rem;
+    height: 10rem;
+    margin: 1rem 0rem;
+    margin-right: 1rem;
+}

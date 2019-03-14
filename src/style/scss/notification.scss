@@ -1,0 +1,14 @@
+.toast {
+  position: fixed;
+  top: 3.125rem;
+  z-index: 9001;
+  word-break: break-all;
+
+  &.no-header {
+    top: 0;
+  }
+
+  &.bx--toast-notification {
+    margin: 0;
+  }
+}

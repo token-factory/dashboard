@@ -1,0 +1,58 @@
+@import 'node_modules/carbon-components/scss/globals/scss/_colors';
+
+.bx--form-item:first-child,
+.bx--form-item + .bx--form-item {
+  margin-bottom: 1rem;
+}
+
+.bx--form-requirement {
+  max-width: 350px;
+}
+.user-input-form {
+  padding: 1rem 2rem;
+  .bx--select-input,
+  .bx--text-input { background: $color__white; }
+  .sensitive-data > .bx--form-item,
+  .createOffer-pairInput > .bx--form-item,
+  .asset-pairInput + .bx--form-item,
+  .asset-pairInput > .bx--form-item {
+    margin-bottom: 1rem;
+  }
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sensitive-data {
+  position: relative;
+
+  .bx--text-input {
+    padding-right: 2.5rem;
+  }
+
+  .bx--btn {
+    position: absolute;
+    top: 1.3rem;
+    right: 0;
+    cursor: pointer;
+    padding: 0 0.8rem;
+  }
+
+  .bx--btn__icon {
+    margin-left: 0;
+  }
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: $color__blue-90;
+  box-shadow: 0 1px 0 0 $color__navy-gray-6;
+  transition: background-color 5000s ease-in-out 0s;
+}

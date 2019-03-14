@@ -1,0 +1,12 @@
+.bx--detail-page-header {
+    &.no-tabs {
+        height: 5.5rem;
+    }
+    &--with-tabs {
+        position: inherit;
+        padding: 1.4rem;
+    }
+    .bx--breadcrumb {
+        padding-bottom: 10px;
+    }
+}

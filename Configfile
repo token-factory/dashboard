@@ -1,0 +1,4 @@
+
+IMAGE ?= blockchain_innovation/token-factory-ui
+IMAGE_REPO ?= registry.ng.bluemix.net
+IMAGE_TAG ?= $(COMMIT)

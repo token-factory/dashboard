@@ -1,0 +1,23 @@
+@import 'node_modules/carbon-components/scss/globals/scss/_colors';
+
+.pair-asset{
+    background-color: $color__white;
+    margin-top: 2rem;
+}
+
+.pair-asset-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+
+.orderbook-row{
+    background-color: $color__white;
+}
+
+.market-offer-grid{
+    .bx--row{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

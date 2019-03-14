@@ -1,0 +1,28 @@
+// Variables to control the truncation behaviour
+$startFixedChars: 3;    // Number of chars before ellipsis - have priority over end chars
+$endFixedChars: 8;    // Number of chars after ellipsis  - lower priority than start chars
+$fontFaceScaleFactor: 1; // Magic number dependent on font face - set by trial and error
+
+// Derived from the 3 variables above
+$startWidth: 1em * $fontFaceScaleFactor * ($startFixedChars + 3);
+$endWidth: 1em * $fontFaceScaleFactor * $endFixedChars;
+
+.truncation-container {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 150px;
+  .first-part, .last-part {
+    display: inline-block;
+    vertical-align: bottom;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .first-part {
+    max-width: calc(100% - #{$endWidth});
+    min-width: $startWidth;
+    text-overflow: ellipsis;
+  }
+  .last-part {
+    max-width: calc(100% - #{$startWidth});
+  }
+}

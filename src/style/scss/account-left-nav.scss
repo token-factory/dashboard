@@ -1,0 +1,18 @@
+@import 'node_modules/carbon-components/scss/globals/scss/_colors';
+
+.account-left-nav {  
+  &.bx--interior-left-nav {
+    top: inherit;
+  }
+  
+  &.bx--interior-left-nav--collapseable .bx--interior-left-nav-collapse {
+    margin-bottom: 3.5rem;
+  }
+
+  .bx--interior-left-nav__header {
+    padding-bottom: .875rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $color__gray-1;
+    text-align: center;
+  }
+}
